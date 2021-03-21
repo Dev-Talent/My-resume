@@ -62,7 +62,7 @@ export default function ContactList() {
 
 </div>
 <div className="bner">
-<img className="mage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRG4h0EMzAQf7oSafO3M34uCOhQdDpFnOke4g&usqp=CAU"/>
+<img className="mage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc2vJc1XFW5Pt0BQazZAl0hmA9-ak7MCjZ8A&usqp=CAU"/>
 </div>
  </div>
 

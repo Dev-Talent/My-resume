@@ -5,7 +5,7 @@
   
 }
 body {
-  
+ 
   background-color: honeydew;
 }
 
@@ -14,3 +14,20 @@ body {
     min-height: 100%;
     overflow-x: hidden;
   }
+ 
+    
+  
+    /* Small Devices, Tablets 
+    @media only screen and (min-width : 593px) {
+      html{
+      width: 75%;
+    }
+    }
+
+     Medium Devices, Desktops
+    @media only screen and (min-width : 992px) {
+      html{
+        width: 50%;
+    }
+  }
+   */
