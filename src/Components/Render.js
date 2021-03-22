@@ -1,6 +1,7 @@
 import React from 'react';
 import "./About.css";
 import Slider from "./Slide";
+import Link from 'react-router-dom';
 
 export default function Render() {
     return (

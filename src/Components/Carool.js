@@ -23,6 +23,8 @@ const {heading,contact,para} = taleName;
   <button className="btn">{contact}</button>
   </Link>
   
+  
+  
 </div>
  
 

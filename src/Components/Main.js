@@ -5,6 +5,7 @@ import Carool from "./Carool";
 import About from "./About";
 import './Main.css';
 import Whatsapp from './Whatsapp';
+import Projects from "./Projects";
 
 export default function main() {
     return (
@@ -13,9 +14,12 @@ export default function main() {
              <Carool /> 
         </div>
        <About />
+      <Projects />
        <Whatsapp />
+      
            <div className="footer">
            <Footer />
+           
         </div>
         </div>
     )
