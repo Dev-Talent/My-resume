@@ -7,9 +7,7 @@ import {Link} from "react-router-dom";
 
 
 export default function Header() {
-    const friuts = ["apples", "bananas", "mango"];
-    const pear =["pear", "juice", ...friuts];
-    console.log(pear);
+    
     return (
         <div className="header">
         <div className='logo'>
