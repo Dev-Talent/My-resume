@@ -5,6 +5,18 @@ import "./plus.css";
 
 
 export default function ContactList() {
+
+  const handleSubmit= (e) => {
+    e.preventDefault();
+    // ???
+    console.log(e.target.firstname.value)
+    console.log(e.target.lastname.value)
+    console.log(e.target.email.value)
+    console.log(e.target.subject.value)
+    console.log(e.target.country.value)
+    e.target.reset();
+  }
+
   return (
     <div>
    
@@ -12,13 +24,13 @@ export default function ContactList() {
     <div className="divide">
      
     <div className="container">
-  <form action="">
+  <form onSubmit={handleSubmit} action="">
     <div className="row">
       <div className="col-25">
         <label for="fname">First Name</label>
       </div>
       <div className="col-75">
-        <input type="text" yname="firstname" placeholder="Your name.." />
+        <input type="text" name="firstname" placeholder="Your name.." />
       </div>
     </div>
     <div class="row">
@@ -29,18 +41,27 @@ export default function ContactList() {
         <input type="text"  name="lastname" placeholder="Your last name.." />
       </div>
     </div>
+
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text"  name="email" placeholder="Your email .." />
+      </div>
+    </div>
     <div className="row">
       <div className="col-25">
         <label for="country">Country</label>
       </div>
       <div className="col-75">
         <select  name="country">
-          <option value="australia">South Africa</option>
-          <option value="australia">Zimbabwe</option>
-          <option value="australia">Australia</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-          <option value="usa">United Kindgom</option>
+          <option value="south Africa">South Africa</option>
+          <option value="Zimbabwe">Zimbabwe</option>
+          <option value="Australia">Australia</option>
+          <option value="Canada">Canada</option>
+          <option value="Usa">USA</option>
+          <option value="United Kingdom">United Kindgom</option>
         </select>
       </div>
     </div>
