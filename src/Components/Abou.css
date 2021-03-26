@@ -1,0 +1,31 @@
+.cont{
+    display: flex;
+}
+.container{
+    width: 50%;
+    height: 100%;
+    
+}
+.text{
+    text-align: justify;
+    margin-left: 50px;
+    width: 50%;
+    color: rgb(7, 5, 5);
+   
+    
+}
+.img{
+    width: 100%;
+  height: 100%;
+  
+}
+.none{
+    list-style: none;
+  }
+  
+  .none li:before {
+    content: '✓';
+    color: crimson;
+    font-size: 20px;
+    font-weight: bold;
+  }

@@ -6,7 +6,9 @@
 	padding-bottom: 60px;
 }
 .foo{
-	background-color: rgb(36, 111, 155);
+    align-items: center;
+    align-items: center;
+	background-color: rgb(242, 248, 248);
 	display: flex;
 	justify-content: space-around;
 	text-align: center;

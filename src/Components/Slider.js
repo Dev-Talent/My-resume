@@ -4,8 +4,9 @@ import {Link} from "react-router-dom";
 
 export default function Slider({title, img, rating}) {
     return (
+
         <div className="product">
-        
+        <Link to="/services">
         <div className="product_info">
        
             <p className="title">{title}</p>
@@ -22,12 +23,13 @@ export default function Slider({title, img, rating}) {
         <img src={img} alt=""></img> 
         </div>
           <div>
-          <Link to="/services">
-           <button className="btn2">Services</button>
-           </Link>
+          
+         {/*  <button className="btn2">Projects</button>*/}
+           
           </div>
            
-          
+          </Link>
         </div>
+        
     )
 }

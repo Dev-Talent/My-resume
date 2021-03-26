@@ -7,12 +7,14 @@ import './Main.css';
 import Whatsapp from './Whatsapp';
 import Projects from "./Projects";
 
+
 export default function main() {
     return (
         <div className="main">
         <div className="carool">
              <Carool /> 
         </div>
+        
        <About />
       <Projects />
        <Whatsapp />

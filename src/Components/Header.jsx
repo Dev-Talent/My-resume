@@ -22,6 +22,9 @@ export default function Header() {
 <Link to="/services">
 <li className='links'><a href='#'></a>Services</li>
 </Link>
+<Link to="/about">
+<li className='links'><a href='#'></a>About</li>
+</Link>
 
 <Link to="/contact">
 <li className='links'><a href='#'></a>ContactUs</li>

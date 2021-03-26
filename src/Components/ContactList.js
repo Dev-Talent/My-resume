@@ -6,16 +6,29 @@ import "./plus.css";
 
 export default function ContactList() {
 
-  const handleSubmit= (e) => {
+  /*const handleSubmit= (e) => {
     e.preventDefault();
     // ???
     console.log(e.target.firstname.value)
-    console.log(e.target.lastname.value)
-    console.log(e.target.email.value)
+   console.log(e.target.lastname.value)
+   console.log(e.target.email.value)
     console.log(e.target.subject.value)
     console.log(e.target.country.value)
     e.target.reset();
-  }
+  */
+    const handleSubmit = (e) => {
+      e.preventDefault();
+      const bookingData = {
+        name: e.target.lastname.value,
+        email: e.target.email.value,
+       subject: e.target.subject.value,
+        country: e.target.country.value,
+      };
+      console.log(bookingData);
+    }
+  
+
+
 
   return (
     <div>
@@ -83,7 +96,7 @@ export default function ContactList() {
 
 </div>
 <div className="bner">
-<img className="mage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc2vJc1XFW5Pt0BQazZAl0hmA9-ak7MCjZ8A&usqp=CAU"/>
+<img className="mage" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc2vJc1XFW5Pt0BQazZAl0hmA9-ak7MCjZ8A&usqp=CAU" alt="img" />
 </div>
  </div>
 
