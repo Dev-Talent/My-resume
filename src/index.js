@@ -5,13 +5,13 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter as Router} from 'react-router-dom';
 import ScrollToTop from './ScrollToTop';
-import Responsive from './Responsive';
+//import Responsive from './Responsive';
 
 
 ReactDOM.render(
   <React.StrictMode>
   <Router>
-  <Responsive />
+ 
   <ScrollToTop />
   <App />
   </Router>
