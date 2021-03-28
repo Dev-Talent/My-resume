@@ -31,3 +31,7 @@
     margin-bottom: 20px;
 	font-family: 'Lobster', cursive;
 }
+a{
+    list-style: none;
+    text-decoration: none;
+}

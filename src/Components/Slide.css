@@ -1,4 +1,4 @@
-.product{
+.produc{
     display: flex;
     flex-direction: column;
     background-color: white !important;
@@ -12,26 +12,26 @@
     width: 100%;
     min-width: 100px;
     border-radius: 15px;
-   transition: all 0.5s linear ease;
+    transition: all 0.5s linear ease-in-out;
 }
-.product:hover:after{
-    content:'Discover';
-    color: rgb(20, 220, 47);
+.produc:hover:after{
+    content:'Click Me';
+    color: crimson;
     font-size: 40px;
     font-weight:bolder;
     text-transform: capitalize;
     opacity: 1.0;
     cursor: pointer;
     margin-bottom: 20px;
-    transition: all 0.5s linear ease;
+    transition: all 0.5s linear ease-in-out;
   }
 
 
-
-.product:hover{
+.produc:hover{
     box-shadow: 2px 2px 5px 0px black;
-    transition: all 0.5s linear ease;
+    transition: all 0.5s linear ease-in-out;
     border: 0.1px solid rgb(197, 196, 196);
+   
 }
 .product > img {
     object-fit: contain;
@@ -64,27 +64,4 @@ margin-bottom: 15px;
     margin-top: 15px;
     display: flex;
     cursor: pointer;
-}
-.btn2{
-    margin-top: 10px;
-    font-size: 20px !important;
-    padding: 2px 27px !important;
-    cursor: pointer;
-    border-radius:30px !important; 
-    background-color:rgb(160, 12, 12)  !important;
-    color: white !important;
-    outline: none;
-    border:  1px solid rgb(160, 12, 12) !important;
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
-    box-shadow: 1px 1px  rgb(160, 12, 12);
-
-}
-.title{
-
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: 600;
-    color: black;
-    overflow: hidden;
-    
 }
